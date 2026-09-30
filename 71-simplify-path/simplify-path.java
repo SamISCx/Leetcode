@@ -6,7 +6,7 @@ class Solution {
             if(s.equals("") || s.equals(".")){
                 continue;
             }
-            if(s.equals("..")){
+            else if(s.equals("..")){
                 if(!stack.isEmpty()){
                     stack.pop();
                 }
